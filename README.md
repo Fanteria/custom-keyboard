@@ -1,7 +1,7 @@
 # Custom split keyboard
 This repository contains useful info about making custom keyboards
 
-## Keyboard parts 
+## Useful links
 Below are some useful informations about parts of keyboard. Every section ends with few useful links.
 
 ### PCB
@@ -31,8 +31,14 @@ There are few options, Arduino Pro Mico with Atmega32, STM32, Elite C microcontr
 - keycaps
 - microcontroller (_arduino pro micro_)
 - diodes
-- [TRRS](https://en.wikipedia.org/?title=TRRS_connector&redirect=no) conectors and cable
+- [TRRS](https://en.wikipedia.org/?title=TRRS_connector&redirect=no), RJ9 or  conectors and cable
 - USB cable
 
 ## Other
 - [Nice custom build video](https://www.youtube.com/watch?v=y0F8Mig40m0)
+
+```C
+// wiring of each half
+#define MATRIX_COL_PINS { B5, B4, E6, D7, C6, D4 }
+#define MATRIX_ROW_PINS { F6, F7, B1, B3, B2 }
+```
