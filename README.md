@@ -69,3 +69,19 @@ For translate `json` keyboard layout to `.c` can be used [this side](https://jhe
 ## Flashing keyboard
 
 For flash your keyboard you can use [QMK Toolbox](https://github.com/qmk/qmk_toolbox) (_but it is not available on linux_) with gui, [QMK CLI](https://github.com/qmk/qmk_cli) or make file in qmk repository
+
+QMK CLI
+
+```
+sudo qmk flash -kb <keyboard> -km <layout>
+```
+
+If you want compile to hex file, you can use `compile` instead `flash`.
+
+Make:
+
+```
+sudo make <keyboard>:<layout>:flash
+```
+
+You can also use make without flash for compilation.
