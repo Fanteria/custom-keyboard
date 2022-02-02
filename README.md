@@ -62,6 +62,8 @@ Can be also used only for only one side with append define name with side. For e
 
 For translate `json` keyboard layout to `.c` can be used [this side](https://jhelvy.shinyapps.io/qmkjsonconverter/).
 
+[Here](https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md) is list of keycodes for QMK keyboards.
+
 ## Building keyboard
 
 [Here](https://sachee.medium.com/building-my-first-keyboard-and-you-can-too-512c0f8a4c5f) is really nice guide about building your own dactyl keyboard.
