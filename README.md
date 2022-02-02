@@ -39,7 +39,7 @@ There are few options, Arduino Pro Micro with Atmega32, STM32, Elite C microcont
 - keycaps
 - microcontroller (_arduino pro micro_)
 - diodes
-- [TRRS](https://en.wikipedia.org/?title=TRRS_connector&redirect=no), RJ9 or conectors and cable
+- [TRRS](https://en.wikipedia.org/?title=TRRS_connector&redirect=no), RJ9 or I~2~C connectors and cable
 - USB cable
 
 ## Other
@@ -58,9 +58,13 @@ Can be also used only for only one side with append define name with side. For e
 
 ## Bootloader
 
+Some peoples hate default pro micro bootloader Caterina. You can replace it with another. I recommend QMK DFU (_[here](https://www.reddit.com/r/olkb/comments/8sxgzb/replace_pro_micro_bootloader_with_qmk_dfu/) is guide_) which is extended by a few functionalities. U can use also default DFU (_one guide is [here](https://www.reddit.com/r/olkb/comments/9ctx37/qmk_burn_dfu_bootloader_into_keyboard_with/)_)
+
 ## Keyboard layout
 
-For translate `json` keyboard layout to `.c` can be used [this side](https://jhelvy.shinyapps.io/qmkjsonconverter/).
+QMK have [simple layout creator](https://config.qmk.fm), you can use it for create and test your keyboadr layout. This site also can compile QMK with your layout to hex file or you can only download layout in `.json`.
+
+For translate `.json` keyboard layout to `.c` can be used [this side](https://jhelvy.shinyapps.io/qmkjsonconverter/). It's useful, when you want compile and flash your layout by make of QMK CLI.
 
 [Here](https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md) is list of keycodes for QMK keyboards.
 
