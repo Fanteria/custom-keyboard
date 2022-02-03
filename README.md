@@ -8,6 +8,8 @@ Below are some useful information about parts of keyboard. Every section ends wi
 
 ### PCB
 
+If you want to have slim keyboard (_or you just want PCB for your keyboard_), you will need PCB. You can buy one or design it.
+
 - [Guide for creating PCB](https://github.com/ruiqimao/keyboard-pcb-guide)
 - [Colosseum PCB](https://github.com/swanmatch/colosseum60)
 - [ErgoDox PCB](https://github.com/Ergodox-io/ErgoDox)
@@ -32,9 +34,13 @@ There are few options, Arduino Pro Micro with Atmega32, STM32, Elite C microcont
 
 ### Switches
 
+About switches are on web lot of information and opinions. For build are these information unimportant, but if you are building keyboard, check it and if you can test what is best for you.
+
 - [switch specifications](https://www.reddit.com/r/MechanicalKeyboards/comments/a7stdo/information_on_kailh_choc_switches/)
 
 ## Building keyboard
+
+This section contains information about keyboard building.
 
 ### Whats you need
 
