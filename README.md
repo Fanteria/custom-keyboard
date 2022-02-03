@@ -100,4 +100,6 @@ sudo make <keyboard>:<layout>:flash
 
 You can also use make without flash for compilation.
 
+QMK CLI have in dependencies `avr-gcc`, but be careful, it's recommended have it in version 8.x. I'm have not problem with newest version, but it' good to know.
+
 ## Conclusion
