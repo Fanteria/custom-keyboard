@@ -4,7 +4,7 @@ This repository contains useful info about making custom keyboards, which I'm fi
 
 ## Useful links
 
-Below are some useful information about parts of keyboard. Every section ends with few useful links.
+Below are some useful information about parts of keyboard. Every section ends with few useful links. Links, related to some parts it's in these parts.
 
 ### PCB
 
@@ -28,6 +28,7 @@ There are few options, Arduino Pro Micro with Atmega32, STM32, Elite C microcont
 ### Shops
 
 - [splitkb](https://splitkb.com/)
+- Alternatively as usual amazon and ebay
 
 ### Switches
 
@@ -46,25 +47,18 @@ There are few options, Arduino Pro Micro with Atmega32, STM32, Elite C microcont
 
 ### Building keyboard
 
-[Here](https://sachee.medium.com/building-my-first-keyboard-and-you-can-too-512c0f8a4c5f) is really nice guide about building your own dactyl keyboard.
+[Here](https://sachee.medium.com/building-my-first-keyboard-and-you-can-too-512c0f8a4c5f) is really nice guide about building your own dactyl keyboard. If you rather see video, you can check [this](https://www.youtube.com/watch?v=y0F8Mig40m0).
 
-### Other
+## Pro micro software
 
-- [Nice custom build video](https://www.youtube.com/watch?v=y0F8Mig40m0)
-
-- [QMK documentation](https://docs.qmk.fm)
+In this section is some info about pro micro software. I'm using [QMK firmware](https://docs.qmk.fm). If you are solder your matrix to different pins, you can change them in code with:
 
 ```C
-// wiring of each half
 #define MATRIX_COL_PINS { B5, B4, E6, D7, C6, D4 }
 #define MATRIX_ROW_PINS { F6, F7, B1, B3, B2 }
 ```
 
 Can be also used only for only one side with append define name with side. For example: `MATRIX_COL_PINS_RIGHT`.
-
-## Pro micro software
-
-In this section is some info about pro micro software.
 
 ### Bootloader
 
