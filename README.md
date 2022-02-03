@@ -46,14 +46,20 @@ This section contains information about keyboard building.
 
 - switches
 - keycaps
-- microcontroller (_arduino pro micro_)
-- diodes
+- microcontroller or two if you build split keyboard(_arduino pro micro in my case_)
+- diodes (_to avoid ghosting_)
 - [TRRS](https://en.wikipedia.org/?title=TRRS_connector&redirect=no), RJ9 or I~2~C connectors and cable
-- USB cable
+- USB cable for power
+- PCB or wire for connection
+- keyboard case
+
+### Wiring
 
 ### Building keyboard
 
-[Here](https://sachee.medium.com/building-my-first-keyboard-and-you-can-too-512c0f8a4c5f) is really nice guide about building your own dactyl keyboard. If you rather see video, you can check [this](https://www.youtube.com/watch?v=y0F8Mig40m0).
+Solder keyboard is relatively easy, but it's lot of soldering. Just hold on wiring schema and everything will be ok.
+
+If you are want some detailed tutorial, [here](https://sachee.medium.com/building-my-first-keyboard-and-you-can-too-512c0f8a4c5f) is really nice guide about building your own dactyl keyboard. If you rather see video, you can check [this](https://www.youtube.com/watch?v=y0F8Mig40m0).
 
 ## Pro micro software
 
