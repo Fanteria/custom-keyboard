@@ -1,6 +1,6 @@
 # Custom split keyboard
 
-This repository contains useful info about making custom keyboards, which I'm find during creating my own custom keyboard. First are some useful links obout building keyboards, components, shops, ... Second my notes about building keyboard and last some information about creating keyboard layout and flashing pro micro.
+This repository contains useful info about making custom keyboards, which I'm find during creating my own custom keyboard. First are some useful links obout building keyboards, components, shops, ... Second my notes about building keyboard and last some information about software on pro micro like creating keyboard layout or flashing.
 
 ## Useful links
 
@@ -33,7 +33,9 @@ There are few options, Arduino Pro Micro with Atmega32, STM32, Elite C microcont
 
 - [switch specifications](https://www.reddit.com/r/MechanicalKeyboards/comments/a7stdo/information_on_kailh_choc_switches/)
 
-## Whats you need
+## Building keyboard
+
+### Whats you need
 
 - switches
 - keycaps
@@ -42,7 +44,11 @@ There are few options, Arduino Pro Micro with Atmega32, STM32, Elite C microcont
 - [TRRS](https://en.wikipedia.org/?title=TRRS_connector&redirect=no), RJ9 or I~2~C connectors and cable
 - USB cable
 
-## Other
+### Building keyboard
+
+[Here](https://sachee.medium.com/building-my-first-keyboard-and-you-can-too-512c0f8a4c5f) is really nice guide about building your own dactyl keyboard.
+
+### Other
 
 - [Nice custom build video](https://www.youtube.com/watch?v=y0F8Mig40m0)
 
@@ -56,23 +62,25 @@ There are few options, Arduino Pro Micro with Atmega32, STM32, Elite C microcont
 
 Can be also used only for only one side with append define name with side. For example: `MATRIX_COL_PINS_RIGHT`.
 
-## Bootloader
+## Pro micro software
 
-Some peoples hate default pro micro bootloader Caterina. You can replace it with another. I recommend QMK DFU (_[here](https://www.reddit.com/r/olkb/comments/8sxgzb/replace_pro_micro_bootloader_with_qmk_dfu/) is guide_) which is extended by a few functionalities. U can use also default DFU (_one guide is [here](https://www.reddit.com/r/olkb/comments/9ctx37/qmk_burn_dfu_bootloader_into_keyboard_with/)_)
+In this section is some info about pro micro software.
 
-## Keyboard layout
+### Bootloader
 
-QMK have [simple layout creator](https://config.qmk.fm), you can use it for create and test your keyboadr layout. This site also can compile QMK with your layout to hex file or you can only download layout in `.json`.
+Some peoples does not like default pro micro bootloader Caterina. You can replace it with another. I recommend QMK DFU (_[here](https://www.reddit.com/r/olkb/comments/8sxgzb/replace_pro_micro_bootloader_with_qmk_dfu/) is guide_) which is extended by a few functionalities against default DFU, but you can use it too (_one guide is [here](https://www.reddit.com/r/olkb/comments/9ctx37/qmk_burn_dfu_bootloader_into_keyboard_with/)_).
+
+### Keyboard layout
+
+Have good keyboard layout is essential. You can have all your shortcuts near to your finger positions. You can use your normal keyboard layout, but why? About my keyboard layout I`m writing [here](./czech_keyboard_layout.md), but text is in czech. That's my native language and have some specific needs. So if your native language is english or you write primary in that language, you can check [Dvorak](https://en.wikipedia.org/wiki/Dvorak_keyboard_layout) or [Colemak](https://colemak.com) (_or lookup for other ones_) keyboard layout. But be careful, these layouts are optimized for frequently used characters in english not in other languages.
+
+QMK have [simple layout creator](https://config.qmk.fm), you can use it for create and test your keyboard layout. This site also can compile QMK with your layout to hex file or you can only download layout in `.json`.
 
 For translate `.json` keyboard layout to `.c` can be used [this side](https://jhelvy.shinyapps.io/qmkjsonconverter/). It's useful, when you want compile and flash your layout by make of QMK CLI.
 
 [Here](https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md) is list of keycodes for QMK keyboards.
 
-## Building keyboard
-
-[Here](https://sachee.medium.com/building-my-first-keyboard-and-you-can-too-512c0f8a4c5f) is really nice guide about building your own dactyl keyboard.
-
-## Flashing keyboard
+### Flashing keyboard
 
 For flash your keyboard you can use [QMK Toolbox](https://github.com/qmk/qmk_toolbox) (_but it is not available on linux_) with gui, [QMK CLI](https://github.com/qmk/qmk_cli) or make file in qmk repository
 
