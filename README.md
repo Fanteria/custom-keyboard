@@ -1,6 +1,6 @@
 # Custom split keyboard
 
-This repository contains useful info about making custom keyboards, which
+This repository contains useful info about making custom keyboards, which I'm find during creating my own custom keyboard. First are some useful links obout building keyboards, components, shops, ... Second my notes about building keyboard and last some information about creating keyboard layout and flashing pro micro.
 
 ## Useful links
 
@@ -91,3 +91,5 @@ sudo make <keyboard>:<layout>:flash
 ```
 
 You can also use make without flash for compilation.
+
+## Conclusion
