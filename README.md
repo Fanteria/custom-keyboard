@@ -32,6 +32,10 @@ There are few options, Arduino Pro Micro with Atmega32, STM32, Elite C microcont
 - [splitkb](https://splitkb.com/)
 - Alternatively as usual amazon and ebay
 
+If you want to buy split keyboard for yourself:
+
+- [vexc](https://www.vexc-how-design.com/designer-keyboard)
+
 ### Switches
 
 About switches are on web lot of information and opinions. For build are these information unimportant, but if you are building keyboard, check it and if you can test what is best for you.
@@ -48,10 +52,11 @@ This section contains information about keyboard building.
 - keycaps
 - microcontroller or two if you build split keyboard(_arduino pro micro in my case_)
 - diodes (_to avoid ghosting_)
-- [TRRS](https://en.wikipedia.org/?title=TRRS_connector&redirect=no), RJ9 or I~2~C connectors and cable
 - USB cable for power
 - PCB or wire for connection
 - keyboard case
+
+- if you want to build split keyboard: [TRRS](https://en.wikipedia.org/?title=TRRS_connector&redirect=no), RJ9 or I~2~C connectors and cable
 
 ### Building keyboard
 
@@ -59,11 +64,11 @@ Solder keyboard is relatively easy, but it's lot of soldering. Just hold on wiri
 
 #### Wiring
 
-Wiring is simple it's only matrix of keyswitches.
+Wiring is simple it's only matrix of keyswitches. If you want to, you can check [QMK hand wiring documentation](https://docs.qmk.fm/#/hand_wire?id=wiring-the-matrix). There are some very useful information. For information about split keyboard connections, QMK have [documentation](https://docs.qmk.fm/#/feature_split_keyboard) for this too.
 
 #### Tutorials
 
-If you want some detailed tutorial, [here](https://sachee.medium.com/building-my-first-keyboard-and-you-can-too-512c0f8a4c5f) is really nice guide about building your own dactyl keyboard. If you rather see video, you can check [this](https://www.youtube.com/watch?v=y0F8Mig40m0).
+If you want some detailed tutorial, [here](https://sachee.medium.com/building-my-first-keyboard-and-you-can-too-512c0f8a4c5f) is really nice guide about building your own dactyl keyboard. You can also check [this](https://github.com/nicinabox/lets-split-guide/blob/master/assembly.md) tutorial. If you rather see video, you can check [this](https://www.youtube.com/watch?v=y0F8Mig40m0).
 
 ## Pro micro software
 
