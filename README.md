@@ -53,13 +53,17 @@ This section contains information about keyboard building.
 - PCB or wire for connection
 - keyboard case
 
-### Wiring
-
 ### Building keyboard
 
 Solder keyboard is relatively easy, but it's lot of soldering. Just hold on wiring schema and everything will be ok.
 
-If you are want some detailed tutorial, [here](https://sachee.medium.com/building-my-first-keyboard-and-you-can-too-512c0f8a4c5f) is really nice guide about building your own dactyl keyboard. If you rather see video, you can check [this](https://www.youtube.com/watch?v=y0F8Mig40m0).
+#### Wiring
+
+Wiring is simple it's only matrix of keyswitches.
+
+#### Tutorials
+
+If you want some detailed tutorial, [here](https://sachee.medium.com/building-my-first-keyboard-and-you-can-too-512c0f8a4c5f) is really nice guide about building your own dactyl keyboard. If you rather see video, you can check [this](https://www.youtube.com/watch?v=y0F8Mig40m0).
 
 ## Pro micro software
 
@@ -84,7 +88,7 @@ QMK have [simple layout creator](https://config.qmk.fm), you can use it for crea
 
 For translate `.json` keyboard layout to `.c` can be used [this side](https://jhelvy.shinyapps.io/qmkjsonconverter/). It's useful, when you want compile and flash your layout by make of QMK CLI.
 
-[Here](https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md) is list of keycodes for QMK keyboards.
+[Here](https://docs.qmk.fm/#/keycode) is list of keycodes for QMK keyboards or if you want it in github readme, than check [here](https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md)
 
 ### Flashing keyboard
 
