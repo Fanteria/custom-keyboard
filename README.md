@@ -66,6 +66,10 @@ Solder keyboard is relatively easy, but it's lot of soldering. Just hold on wiri
 
 Wiring is simple it's only matrix of keyswitches. If you want to, you can check [QMK hand wiring documentation](https://docs.qmk.fm/#/hand_wire?id=wiring-the-matrix). There are some very useful information. For information about split keyboard connections, QMK have [documentation](https://docs.qmk.fm/#/feature_split_keyboard) for this too.
 
+Below is image of wiring for right hand. Image is from bottom of keyboard. If you want wing of left hand, you can mirror this image.
+
+![Image of wiring](wiring_image.png)
+
 But be careful, if you have arduino pro micro, pins have different names, which can be confusing and in QMK code must be used pin names from spark pro micro (_example of pin names is in code in section pro micro software_). If you want to know relation between pro micro and arduino pro micro pins names, check [this](https://deskthority.net/wiki/Arduino_Pro_Micro#Pinout).
 
 #### Tutorials
