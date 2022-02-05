@@ -66,6 +66,8 @@ Solder keyboard is relatively easy, but it's lot of soldering. Just hold on wiri
 
 Wiring is simple it's only matrix of keyswitches. If you want to, you can check [QMK hand wiring documentation](https://docs.qmk.fm/#/hand_wire?id=wiring-the-matrix). There are some very useful information. For information about split keyboard connections, QMK have [documentation](https://docs.qmk.fm/#/feature_split_keyboard) for this too.
 
+But be careful, if you have arduino pro micro, pins have different names, which can be confusing and in QMK code must be used pin names from spark pro micro (_example of pin names is in code in section pro micro software_). If you want to know relation between pro micro and arduino pro micro pins names, check [this](https://deskthority.net/wiki/Arduino_Pro_Micro#Pinout).
+
 #### Tutorials
 
 If you want some detailed tutorial, [here](https://sachee.medium.com/building-my-first-keyboard-and-you-can-too-512c0f8a4c5f) is really nice guide about building your own dactyl keyboard. You can also check [this](https://github.com/nicinabox/lets-split-guide/blob/master/assembly.md) tutorial. If you rather see video, you can check [this](https://www.youtube.com/watch?v=y0F8Mig40m0).
