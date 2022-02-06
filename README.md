@@ -129,3 +129,5 @@ Allow me please a few words on the end. First I'm sorry for my English, it's cra
 Second building your keyboard is fun, but sometimes things can go wrong. I have luck and do everything right on the first try, but some peoples write about they messed up this or that. So, it's happened. Don't be upset or sad about that. This is an experience too and next time, you will do it right.
 
 And if you want to check my custom dactyl keyboard, the picture is below.The body is 3D printed and a little bit sanded, but I'm too lazy to do it properly. Maybe next time I will. Or not, I'm really lazy.
+
+![Picture of my keyboard](my_keyboard.jpg)
