@@ -55,8 +55,7 @@ This section contains information about keyboard building.
 - USB cable for power
 - PCB or wire for connection
 - keyboard case
-
-- if you want to build a split keyboard: [TRRS](https://en.wikipedia.org/?title=TRRS_connector&redirect=no), RJ9 or I~2~C connectors and cable
+- if you want to build a split keyboard: [TRRS](https://en.wikipedia.org/?title=TRRS_connector&redirect=no), RJ9 or I2C connectors and cable
 
 ### Building keyboard
 
