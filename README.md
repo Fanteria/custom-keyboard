@@ -42,6 +42,8 @@ About switches are on the web lot of information and opinions. For build is this
 
 - [switch specifications](https://www.reddit.com/r/MechanicalKeyboards/comments/a7stdo/information_on_kailh_choc_switches/)
 
+It's good to buy some nice and comfy keycaps. I'm ignoring this theme here, but if you want to know more, check [this](https://keyboard.university/100-courses/keycaps-101-ydy8j) site, or just use google, you can find a lot of articles about it.
+
 ## Building keyboard
 
 This section contains information about keyboard building.
